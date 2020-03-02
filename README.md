@@ -49,10 +49,12 @@ L2-3 means "ant number 2 goes to room number 3."
 Each line of output corresponds to one "round" of moving ants through the anthill. The goal is to choose paths optimally to minimize this number of lines.
 
 # How to run it
-clone the repo
-make
-generate a new map by using the generator executable
-run the algorithm (./lem-in < map)
+<pre>
+clone the repo. 
+make. 
+generate a new map by using the generator executable. 
+run the algorithm (./lem-in < map). 
+</pre>
 
 # What we learned
 Getting acquainted with graph theory and implementing the various puzzle pieces, such as filling out our graph from an adjacency matrix, running breadth-first searches using queues, finding our own extra constraints to the algorithm to make it relevant to our actual problem, etc. was a challenging and rewarding process.
